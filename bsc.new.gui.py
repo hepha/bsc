@@ -231,7 +231,6 @@ def load_settings():
         logging.error(f"載入設定失敗：{str(e)}")
         return None
 
-# 計算前一天的 15 天滾動積分（整數）
 
 
 def calculate_rolling_points(df, selected_date):
